@@ -1,5 +1,6 @@
 package ru.umma.ummaruapp.view.surah
 
+import androidx.compose.runtime.Immutable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -33,6 +34,7 @@ class SurahViewModel(
     }
 }
 
+@Immutable
 data class SuraScreenState(
     val surah: List<AyahBlock>,
     val lastAyah: String?,

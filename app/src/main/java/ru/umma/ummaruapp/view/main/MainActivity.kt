@@ -126,17 +126,18 @@ fun SuraListScreen(
             }
 
             val index by remember { derivedStateOf { listState.firstVisibleItemIndex } }
-            val info by remember { derivedStateOf { listState.layoutInfo } }
+            val count by remember { derivedStateOf { listState.layoutInfo.totalItemsCount } }
+            val visibleSize by remember { derivedStateOf { listState.layoutInfo.visibleItemsInfo.size } }
 
             FastScroller(
                 progress = index.toFloat(),
                 modifier = modifier,
-                maxValue = info.totalItemsCount,
+                maxValue = count,
             ) { position ->
                 scope.launch {
                     val scroll =
-                        position + ((position + info.visibleItemsInfo.size) /
-                                (info.totalItemsCount.takeIf { it > 0 } ?: 1))
+                        position + ((position + visibleSize) /
+                                (count.takeIf { it > 0 } ?: 1))
                     listState.scrollToItem(scroll.toInt())
                 }
             }
