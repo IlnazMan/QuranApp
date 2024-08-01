@@ -19,43 +19,6 @@ import ru.umma.ummaruapp.R
 /**
  * @author i.m.mannapov
  */
-@Composable
-fun FastScroller(
-    progress: Float,
-    modifier: Modifier = Modifier,
-    maxValue: Int,
-    onSlide: (Float) -> Unit,
-) {
-    Slider(
-        value = progress,
-        modifier = modifier
-            .graphicsLayer {
-                rotationZ = 90f
-                transformOrigin = TransformOrigin(0f, 0f)
-            }
-            .layout { measurable, constraints ->
-                val placeable = measurable.measure(
-                    Constraints(
-                        minWidth = constraints.minHeight,
-                        maxWidth = constraints.maxHeight,
-                        minHeight = constraints.minWidth,
-                        maxHeight = constraints.maxWidth,
-                    )
-                )
-                layout(placeable.height, constraints.maxHeight) {
-                    placeable.place(10, -constraints.maxWidth)
-                }
-            }
-            .height(30.dp),
-        onValueChange = onSlide,
-        valueRange = 0f..maxValue.toFloat(),
-        colors = SliderDefaults.colors(
-            activeTrackColor = MaterialTheme.colors.secondary,
-            thumbColor = MaterialTheme.colors.onPrimary
-        )
-    )
-}
-
 val fontFamily = FontFamily(
     Font(R.font.kazan_basma)
 )

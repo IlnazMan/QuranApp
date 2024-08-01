@@ -11,11 +11,15 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.animateScrollBy
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -37,6 +41,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -50,7 +56,6 @@ import org.koin.core.parameter.parametersOf
 import ru.umma.ummaruapp.R
 import ru.umma.ummaruapp.data.models.AyahBlock
 import ru.umma.ummaruapp.data.models.Surah
-import ru.umma.ummaruapp.view.base.FastScroller
 import ru.umma.ummaruapp.view.base.fontFamily
 import ru.umma.ummaruapp.view.theme.UmmaTheme
 
@@ -86,7 +91,7 @@ class SurahActivity : AppCompatActivity() {
                     needScroll = initialScroll,
                     updateScroll = {
                         initialScroll = true
-                    }
+                    },
                 )
             }
         }
@@ -128,10 +133,14 @@ fun SurahScreen(
     modifier: Modifier = Modifier,
     savePos: (Int, Int) -> Unit,
     needScroll: Boolean,
-    updateScroll: () -> Unit
+    updateScroll: () -> Unit,
 ) {
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
+    var color by remember { mutableStateOf(Color.Transparent) }
+    val screenHeight by remember {
+        derivedStateOf { listState.layoutInfo.viewportSize.height }
+    }
 
     screenState?.let { st ->
         val data = st.surah
@@ -155,6 +164,48 @@ fun SurahScreen(
                     }
                 }
             }
+            if (screenState.surah.size > 1) {
+                Box(
+                    modifier = Modifier
+                        .align(Alignment.CenterEnd)
+                        .fillMaxHeight()
+                        .width(40.dp)
+                        .background(color)
+                        .pointerInput(Unit) {
+                            detectDragGestures { change, dragAmount ->
+                                val pos =
+                                    (change.position.y / screenHeight) * screenState.surah.size
+                                scope.launch {
+                                    if (pos > 0 && pos < screenState.surah.size)
+                                        listState.scrollToItem(pos.toInt())
+                                }
+                            }
+                        }
+                        .pointerInput(Unit) {
+                            detectTapGestures { change ->
+                                val pos =
+                                    (change.y / screenHeight) * screenState.surah.size
+                                scope.launch {
+                                    if (pos > 0 && pos < screenState.surah.size)
+                                        listState.scrollToItem(pos.toInt())
+                                }
+                            }
+                        }
+                        .pointerInput(Unit) {
+                            awaitPointerEventScope {
+                                while (true) {
+                                    val event = awaitPointerEvent()
+                                    // handle pointer event
+                                    if (event.type == PointerEventType.Move || event.type == PointerEventType.Press) {
+                                        color = Color.LightGray.copy(alpha = 0.1f)
+                                    } else if (event.type == PointerEventType.Release) {
+                                        color = Color.Transparent
+                                    }
+                                }
+                            }
+                        }
+                )
+            }
         }
 
         if (!needScroll) {
@@ -168,25 +219,6 @@ fun SurahScreen(
             }
         } else {
             savePos(listState.firstVisibleItemIndex, listState.firstVisibleItemScrollOffset)
-        }
-
-        if (screenState.surah.size > 1) {
-            val index by remember {
-                derivedStateOf { listState.firstVisibleItemIndex }
-            }
-            val count by remember {
-                derivedStateOf { listState.layoutInfo.totalItemsCount }
-            }
-
-            FastScroller(
-                progress = index.toFloat(),
-                modifier = modifier,
-                maxValue = count,
-            ) { position ->
-                scope.launch {
-                    listState.scrollToItem(position.toInt())
-                }
-            }
         }
     }
 }
