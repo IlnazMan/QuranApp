@@ -64,12 +64,18 @@ class SurahActivity : AppCompatActivity() {
         intent.getSerializableExtra(KEY_SURAH) as Surah
     }
 
+    private val lastRead by lazy {
+        intent.getStringExtra(KEY_SAVED)?.let {
+            it to intent.getIntExtra(KEY_OFFSET, -1)
+        }
+    }
+
     private val needInitialScroll by lazy {
         intent.getBooleanExtra(KEY_NEED_INITIAL_SCROLL, false)
     }
 
     private val _viewModel by viewModel<SurahViewModel> {
-        parametersOf(surah)
+        parametersOf(surah, lastRead)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -110,14 +116,19 @@ class SurahActivity : AppCompatActivity() {
         fun newIntent(
             context: Context,
             surah: Surah,
+            savedAyah: Pair<String, Int>?,
             needScroll: Boolean = false
         ): Intent =
             Intent(context, SurahActivity::class.java).apply {
                 putExtra(KEY_SURAH, surah)
+                putExtra(KEY_SAVED, savedAyah?.first)
+                putExtra(KEY_OFFSET, savedAyah?.second)
                 putExtra(KEY_NEED_INITIAL_SCROLL, needScroll)
             }
 
         private const val KEY_SURAH = "surah"
+        private const val KEY_SAVED = "saved"
+        private const val KEY_OFFSET = "offset"
         private const val KEY_NEED_INITIAL_SCROLL = "scroll"
     }
 

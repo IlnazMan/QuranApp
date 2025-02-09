@@ -13,6 +13,7 @@ import ru.umma.ummaruapp.domain.DataProvider
 import ru.umma.ummaruapp.domain.IQuranProvider
 import ru.umma.ummaruapp.view.launch.LaunchViewModel
 import ru.umma.ummaruapp.view.main.MainViewModel
+import ru.umma.ummaruapp.view.search.SearchViewModel
 import ru.umma.ummaruapp.view.surah.SurahViewModel
 
 val appModule = module {
@@ -39,7 +40,10 @@ val viewModels = module {
     viewModel {
         LaunchViewModel(get(), get())
     }
-    viewModel { (s: Surah) ->
-        SurahViewModel(s, get(), get())
+    viewModel { (s: Surah, saved: Pair<String, Int>?) ->
+        SurahViewModel(s, saved, get(), get())
+    }
+    viewModel {
+        SearchViewModel(get())
     }
 }

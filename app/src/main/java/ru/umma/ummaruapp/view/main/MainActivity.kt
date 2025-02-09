@@ -1,9 +1,14 @@
 package ru.umma.ummaruapp.view.main
 
 import android.annotation.SuppressLint
+import android.app.SearchManager
+import android.content.ComponentName
+import android.content.Context
 import android.os.Bundle
+import android.view.Menu
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectDragGestures
@@ -48,6 +53,7 @@ import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import ru.umma.ummaruapp.R
 import ru.umma.ummaruapp.data.models.Surah
+import ru.umma.ummaruapp.view.search.SearchResultsActivity
 import ru.umma.ummaruapp.view.surah.SurahActivity
 import ru.umma.ummaruapp.view.theme.UmmaTheme
 
@@ -58,18 +64,32 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val data by _viewModel.surahListLiveData.observeAsState()
-            val suraNmb = data?.last?.split(":")?.getOrNull(0)
+            val lastRead = data?.let { it.last.orEmpty() to it.lastOffset }
+            val suraNmb = data?.last?.split("-")?.getOrNull(0)
             val listState = rememberLazyListState()
 
             SuraListScreen(
                 state = data,
                 onLastCLick = {
                     data?.suraList?.find { it.number == suraNmb }?.let {
-                        startActivity(SurahActivity.newIntent(this@MainActivity, it, true))
+                        startActivity(
+                            SurahActivity.newIntent(
+                                this@MainActivity,
+                                surah = it,
+                                savedAyah = lastRead,
+                                needScroll = true,
+                            )
+                        )
                     }
                 },
                 onSuraClick = {
-                    startActivity(SurahActivity.newIntent(this@MainActivity, it))
+                    startActivity(
+                        SurahActivity.newIntent(
+                            this@MainActivity,
+                            surah = it,
+                            savedAyah = null
+                        )
+                    )
                 },
                 listState = listState
             )
@@ -79,6 +99,17 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         _viewModel.updateData()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+
+        val searchManager = getSystemService(Context.SEARCH_SERVICE) as SearchManager
+        val searchView = menu.findItem(R.id.search).actionView as SearchView
+        val component = ComponentName(this, SearchResultsActivity::class.java)
+        val searchableInfo = searchManager.getSearchableInfo(component)
+        searchView.setSearchableInfo(searchableInfo)
+        return true
     }
 }
 

@@ -2,5 +2,7 @@
     <string name="app_name">Коран. Смыслы</string>
     <string name="title_last_read">Последний аят</string>
     <string name="text_retry">Повторить</string>
+    <string name="text_search">Поиск</string>
+    <string name="text_found">Результат</string>
     <string name="text_tafsir">تفسير القرآن</string>
 </resources>

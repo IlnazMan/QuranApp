@@ -14,6 +14,7 @@ import ru.umma.ummaruapp.domain.IQuranProvider
 
 class SurahViewModel(
     private val surah: Surah,
+    private val saved: Pair<String, Int>?,
     private val provider: IQuranProvider,
     private val prefs: Prefs
 ) : ViewModel() {
@@ -23,9 +24,7 @@ class SurahViewModel(
     init {
         viewModelScope.launch(Dispatchers.IO) {
             val list = provider.getSurahContent(surah)
-            val last = prefs.getLastAyah()
-
-            _surahListLiveData.postValue(SuraScreenState(list, last.first, last.second))
+            _surahListLiveData.postValue(SuraScreenState(list, saved?.first, saved?.second ?: 0))
         }
     }
 

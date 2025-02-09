@@ -8,5 +8,7 @@ interface IQuranProvider {
 
     suspend fun getSurahContent(surah: Surah): List<AyahBlock>
 
+    suspend fun searchAyahs(text: String): List<Pair<AyahBlock, Surah>>
+
     suspend fun isDataActual(): Boolean
 }

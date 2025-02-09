@@ -42,6 +42,15 @@ interface QuranDao {
 
     @Query(
         """
+        SELECT *
+        FROM $AYAH_TABLE_NAME
+        WHERE translate LIKE :text
+    """
+    )
+    suspend fun getAyahByText(text: String): List<Ayahs>
+
+    @Query(
+        """
             SELECT *
         FROM $LAST_DOWNLOAD_INFO_TABLE_NAME
         """

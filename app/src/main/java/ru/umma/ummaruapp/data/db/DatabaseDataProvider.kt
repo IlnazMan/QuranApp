@@ -27,6 +27,24 @@ class DatabaseDataProvider(private val _db: Database) : IQuranProvider {
         }
     }
 
+    override suspend fun searchAyahs(text: String): List<Pair<AyahBlock, Surah>> {
+        return _db.holyQuranDao().getAyahByText("$text%").map { ayah ->
+            val surah =
+                _db.holyQuranDao().getAllSurahs().find { ayah.number.split("-")[0] == it.number }!!
+            AyahBlock(
+                ayah.number,
+                ayah.arabic,
+                ayah.transcription,
+                ayah.translate,
+                ayah.explanation
+            ) to Surah(
+                name = surah.name,
+                link = surah.link,
+                number = surah.number
+            )
+        }
+    }
+
     override suspend fun isDataActual(): Boolean {
         return ((_db.holyQuranDao().getLastDownloadTime() ?: 0L)) > 0
     }

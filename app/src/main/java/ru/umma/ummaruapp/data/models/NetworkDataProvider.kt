@@ -18,17 +18,20 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
             .maxBodySize(90_000_000)
             .get()
 
-        return jsoup.getElementsByTag("li")
-            .filter {
-                it.getElementsByClass("quran__sura-number quran__sura-number--sura").isNotEmpty()
-            }
+        return jsoup.getElementsByClass("PerevodKorana_link-box__Izyjj")
+            .filter { it.getElementsByClass("SuraBlock_block__J7Yuo").isNotEmpty() }.get(5)
+            .children()
             .map {
+                val nameArab =
+                    it.getElementsByClass("Title_title__CWCK0 SuraBlock_surah-text__6WS1A").text()
+                val nameRus = it.getElementsByClass("SubTitle_subtitle__B6BP3").text()
                 Surah(
-                    it.getElementsByClass("title").text(),
-                    it.getElementsByClass("href").attr("href"),
-                    it.getElementsByClass("quran__sura-number quran__sura-number--sura").text()
+                    name = "$nameArab ($nameRus)",
+                    link = it.getElementsByAttribute("href").attr("href"),
+                    number = it.getElementsByClass("Counter_counter__pYK7i").text(),
                 )
             }
+            .filter { it.number.isNotEmpty() }
     }
 
     override val downloadProgress: MutableStateFlow<Pair<Int, Int>> = MutableStateFlow(0 to 0)
@@ -76,13 +79,15 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
             .maxBodySize(90_000_000)
             .get()
 
-        return jsoup.getElementsByClass("u_quran-sura__article").let { sura ->
-            sura.getOrNull(0)?.getElementsByClass("u_quran-ajat")?.map {
+        return jsoup.getElementsByClass("SuraPageContainer_surah-container__bSb7s").getOrNull(0)
+            ?.getElementsByClass("AyatWithTranslate_ayat-box__cHgM8")
+            ?.map {
                 AyahBlock(
-                    number = it.getElementsByClass("u_quran-ajat__number").text(),
-                    arabic = it.getElementsByClass("u_quran-ajat__arab")[0].getElementsByClass("u_quran-ajat__arab-word")
-                        .joinToString(" ") { it.text() },
-                    transcription = it.getElementsByClass("u_quran-ajat__transcription").text(),
+                    number = it.id().orEmpty(),
+                    arabic = it.getElementsByClass("AyatWithTranslate_ayat-text__ZmHEw")[0].children()
+                        .joinToString(separator = " ") { it.text() },
+                    transcription = it.getElementsByClass("AyatTranscription_ayat-transcription__text__A15_e")
+                        .text(),
                     translate = it.getElementsByClass("u_quran-ajat__translate")
                         .flatMap { it.children() }
                         .filter { !it.hasClass("explanation explanation--quran") }
@@ -97,7 +102,6 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
                             }"
                         }
                 )
-            }
-        }.orEmpty()
+            }.orEmpty()
     }
 }
