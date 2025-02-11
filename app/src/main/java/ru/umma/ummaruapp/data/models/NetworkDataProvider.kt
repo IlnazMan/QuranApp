@@ -86,8 +86,7 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
                     number = it.id().orEmpty(),
                     arabic = it.getElementsByClass("AyatWithTranslate_ayat-text__ZmHEw")[0].children()
                         .joinToString(separator = " ") { it.text() },
-                    transcription = it.getElementsByClass("AyatTranscription_ayat-transcription__text__A15_e")
-                        .text(),
+                    transcription = it.getElementsByClass("AyatWithTranslate_ayat-transcription__lahMr").text(),
                     translate = it.getElementsByClass("u_quran-ajat__translate")
                         .flatMap { it.children() }
                         .filter { !it.hasClass("explanation explanation--quran") }
