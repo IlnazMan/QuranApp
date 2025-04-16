@@ -14,23 +14,23 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Button
-import androidx.compose.material.LinearProgressIndicator
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -53,7 +53,8 @@ class LaunchActivity : AppCompatActivity() {
         setContent {
             val state by _viewModel.state.observeAsState()
             UmmaTheme {
-                LaunchScreen(state,
+                LaunchScreen(
+                    state,
                     onDataReady = {
                         lifecycleScope.launch {
                             delay(1_000)
@@ -81,6 +82,10 @@ fun LaunchScreen(
     onError: (String) -> Unit = {},
 ) {
     if (state == null) return
+
+    var pointerOffset by remember {
+        mutableStateOf(Offset(0f, 0f))
+    }
 
     if (state.dataIsReady) {
         onDataReady()
@@ -120,13 +125,6 @@ fun LaunchScreen(
         val pr = state.progress.first
         val max = state.progress.second
 
-
-        val progress by animateFloatAsState(
-            targetValue = if (max > 0) {
-                (pr.toFloat() / max)
-            } else 0f
-        )
-
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.align(Alignment.BottomCenter)
@@ -139,16 +137,44 @@ fun LaunchScreen(
                 }
             }
 
-            if (progress > 0 && error == null) {
-                LinearProgressIndicator(
-                    progress = progress,
-                    Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 8.dp)
-                        .height(4.dp),
-                    color = MaterialTheme.colors.primary,
-                    backgroundColor = MaterialTheme.colors.secondary
+            if (error == null) {
+                val progress by animateFloatAsState(
+                    targetValue = if (max > 0) {
+                        (pr.toFloat() / max)
+                    } else 0f
                 )
+
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .drawWithContent {
+                            drawContent()
+                            drawLine(
+                                color = Color.Gray,
+                                start = Offset.Zero,
+                                end = Offset(drawContext.size.width, 0f),
+                                strokeWidth = 10f,
+                            )
+                            drawLine(
+                                color = Color.DarkGray,
+                                start = Offset.Zero,
+                                end = Offset(
+                                    (drawContext.size.width * progress), 0f
+                                ),
+                                strokeWidth = 15f,
+                            )
+                        }
+                        .height(100.dp)
+                )
+//                LinearProgressIndicator(
+//                    progress = progress,
+//                    Modifier
+//                        .fillMaxWidth()
+//                        .padding(vertical = 8.dp)
+//                        .height(4.dp),
+//                    color = MaterialTheme.colors.primary,
+//                    backgroundColor = MaterialTheme.colors.secondary
+//                )
             }
         }
     }

@@ -8,12 +8,19 @@ import ru.umma.ummaruapp.data.db.Database
 import ru.umma.ummaruapp.data.db.LastDownload
 import ru.umma.ummaruapp.data.db.Surahs
 import ru.umma.ummaruapp.domain.DataProvider
+import java.security.SecureRandom
+import java.security.cert.X509Certificate
+import javax.net.ssl.SSLContext
+import javax.net.ssl.SSLSocketFactory
+import javax.net.ssl.TrustManager
+import javax.net.ssl.X509TrustManager
 
 const val BASE_URL = "https://umma.ru"
 
 class NetworkDataProvider(private val _db: Database) : DataProvider {
     private fun getSurahList(): List<Surah> {
         val jsoup = Jsoup.connect("$BASE_URL/perevod-korana/")
+            .sslSocketFactory(getSslSocketFactory())
             .followRedirects(true)
             .maxBodySize(90_000_000)
             .get()
@@ -75,6 +82,7 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
 
     private fun getSurahContent(surah: Surah): List<AyahBlock> {
         val jsoup = Jsoup.connect("${BASE_URL}${surah.link}")
+            .sslSocketFactory(getSslSocketFactory())
             .followRedirects(true)
             .maxBodySize(90_000_000)
             .get()
@@ -102,5 +110,19 @@ class NetworkDataProvider(private val _db: Database) : DataProvider {
                         }
                 )
             }.orEmpty()
+    }
+
+    private fun getSslSocketFactory(): SSLSocketFactory {
+        val trustAllCerts = arrayOf<TrustManager>(object : X509TrustManager {
+            override fun checkClientTrusted(chain: Array<X509Certificate>, authType: String) {}
+            override fun checkServerTrusted(chain: Array<X509Certificate>, authType: String) {}
+            override fun getAcceptedIssuers(): Array<X509Certificate> = arrayOf()
+        })
+
+        val sslContext = SSLContext.getInstance("SSL").apply {
+            init(null, trustAllCerts, SecureRandom())
+        }
+
+        return sslContext.socketFactory
     }
 }

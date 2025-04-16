@@ -28,7 +28,7 @@ class DatabaseDataProvider(private val _db: Database) : IQuranProvider {
     }
 
     override suspend fun searchAyahs(text: String): List<Pair<AyahBlock, Surah>> {
-        return _db.holyQuranDao().getAyahByText("$text%").map { ayah ->
+        return _db.holyQuranDao().getAyahByText("%$text%").map { ayah ->
             val surah =
                 _db.holyQuranDao().getAllSurahs().find { ayah.number.split("-")[0] == it.number }!!
             AyahBlock(

@@ -9,8 +9,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuranApp"
-        android:usesCleartextTraffic="true">
+        android:networkSecurityConfig="@xml/network_config"
+        android:theme="@style/Theme.QuranApp">
         <activity
             android:name=".view.launch.LaunchActivity"
             android:exported="true"

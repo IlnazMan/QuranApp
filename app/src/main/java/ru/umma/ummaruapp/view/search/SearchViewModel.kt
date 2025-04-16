@@ -10,11 +10,28 @@ import ru.umma.ummaruapp.domain.IQuranProvider
 class SearchViewModel(
     private val provider: IQuranProvider,
 ) : ViewModel() {
-    private val _surahListLiveData = MutableLiveData<List<Pair<AyahBlock, Surah>>>()
-    val surahListLiveData: LiveData<List<Pair<AyahBlock, Surah>>> = _surahListLiveData
+    private val _surahListLiveData = MutableLiveData<SearchResult>()
+    val surahListLiveData: LiveData<SearchResult> = _surahListLiveData
 
     suspend fun findAyas(ayah: String) {
+        _surahListLiveData.postValue(SearchResult.Loading)
         val ayahs = provider.searchAyahs(ayah)
-        _surahListLiveData.postValue(ayahs)
+
+        val result = if (ayahs.isEmpty()) {
+            SearchResult.Empty
+        } else {
+            SearchResult.Data(ayahs)
+        }
+        _surahListLiveData.postValue(result)
     }
+}
+
+sealed interface SearchResult {
+    class Data(
+        val result: List<Pair<AyahBlock, Surah>>,
+    ) : SearchResult
+
+    data object Loading : SearchResult
+
+    data object Empty : SearchResult
 }
