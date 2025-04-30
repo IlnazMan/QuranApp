@@ -1,0 +1,3932 @@
+[
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 7,
+        "title":
+        {
+            "rus": "аль-Фатиха",
+            "tat": "Фатиха"
+        },
+        "titleTranslate":
+        {
+            "rus": "Открывающая книгу",
+            "tat": "Ачучы"
+        },
+        "titleAr": "الفاتحة",
+        "index": "001",
+        "pages": "1",
+        "juz":
+        [
+            {
+                "index": "01",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 286,
+        "title":
+        {
+            "rus": "аль-Бакара",
+            "tat": "Әл-Бәкара"
+        },
+        "titleTranslate":
+        {
+            "rus": "Корова",
+            "tat": "Сыер"
+        },
+        "titleAr": "البقرة",
+        "index": "002",
+        "pages": "2",
+        "juz":
+        [
+            {
+                "index": "01",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_141"
+                }
+            },
+            {
+                "index": "02",
+                "verse":
+                {
+                    "start": "verse_142",
+                    "end": "verse_252"
+                }
+            },
+            {
+                "index": "03",
+                "verse":
+                {
+                    "start": "verse_253",
+                    "end": "verse_286"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 200,
+        "title":
+        {
+            "rus": "аль Имран",
+            "tat": "Әлү Гыймран"
+        },
+        "titleTranslate":
+        {
+            "rus": "Семейство Имрана",
+            "tat": "Гыймран гаиләсе"
+        },
+        "titleAr": "آل عمران",
+        "index": "003",
+        "pages": "45",
+        "juz":
+        [
+            {
+                "index": "03",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "04",
+                "verse":
+                {
+                    "start": "verse_93",
+                    "end": "verse_200"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 176,
+        "title":
+        {
+            "rus": "ан-Ниса",
+            "tat": "Ән-Ниса"
+        },
+        "titleTranslate":
+        {
+            "rus": "Женщины",
+            "tat": "Хатыннар"
+        },
+        "titleAr": "النساء",
+        "index": "004",
+        "pages": "69",
+        "juz":
+        [
+            {
+                "index": "04",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_23"
+                }
+            },
+            {
+                "index": "05",
+                "verse":
+                {
+                    "start": "verse_24",
+                    "end": "verse_147"
+                }
+            },
+            {
+                "index": "06",
+                "verse":
+                {
+                    "start": "verse_148",
+                    "end": "verse_176"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 120,
+        "title":
+        {
+            "rus": "аль-Маида",
+            "tat": "Әл-Маидә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Трапеза",
+            "tat": "Табын"
+        },
+        "titleAr": "المائدة",
+        "index": "005",
+        "pages": "95",
+        "juz":
+        [
+            {
+                "index": "06",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_81"
+                }
+            },
+            {
+                "index": "07",
+                "verse":
+                {
+                    "start": "verse_82",
+                    "end": "verse_120"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 165,
+        "title":
+        {
+            "rus": "аль-Анам",
+            "tat": "Әл-Әнгам"
+        },
+        "titleTranslate":
+        {
+            "rus": "Скот",
+            "tat": "Терлек"
+        },
+        "titleAr": "الأنعام",
+        "index": "006",
+        "pages": "115",
+        "juz":
+        [
+            {
+                "index": "07",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_110"
+                }
+            },
+            {
+                "index": "08",
+                "verse":
+                {
+                    "start": "verse_111",
+                    "end": "verse_165"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 206,
+        "title":
+        {
+            "rus": "аль-Араф",
+            "tat": "Әл-Әгъраф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ограды",
+            "tat": "Киртәләр"
+        },
+        "titleAr": "الأعراف",
+        "index": "007",
+        "pages": "136",
+        "juz":
+        [
+            {
+                "index": "08",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_87"
+                }
+            },
+            {
+                "index": "09",
+                "verse":
+                {
+                    "start": "verse_88",
+                    "end": "verse_206"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 75,
+        "title":
+        {
+            "rus": "аль-Анфаль",
+            "tat": "Әл-Әнфәл"
+        },
+        "titleTranslate":
+        {
+            "rus": "Трофеи",
+            "tat": "Табышлар"
+        },
+        "titleAr": "الأنفال",
+        "index": "008",
+        "pages": "160",
+        "juz":
+        [
+            {
+                "index": "09",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            },
+            {
+                "index": "10",
+                "verse":
+                {
+                    "start": "verse_41",
+                    "end": "verse_75"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 129,
+        "title":
+        {
+            "rus": "ат-Тавба",
+            "tat": "Әт-Тәүбә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Покаяние",
+            "tat": ""
+        },
+        "titleAr": "التوبة",
+        "index": "009",
+        "pages": "169",
+        "juz":
+        [
+            {
+                "index": "10",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "11",
+                "verse":
+                {
+                    "start": "verse_93",
+                    "end": "verse_129"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 109,
+        "title":
+        {
+            "rus": "Юнус",
+            "tat": "Йунус"
+        },
+        "titleTranslate":
+        {
+            "rus": "Иона",
+            "tat": "Юныс"
+        },
+        "titleAr": "يونس",
+        "index": "010",
+        "pages": "187",
+        "juz":
+        [
+            {
+                "index": "11",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_109"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 123,
+        "title":
+        {
+            "rus": "Худ",
+            "tat": "Һуд"
+        },
+        "titleTranslate":
+        {
+            "rus": "Худ",
+            "tat": ""
+        },
+        "titleAr": "هود",
+        "index": "011",
+        "pages": "199",
+        "juz":
+        [
+            {
+                "index": "11",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            },
+            {
+                "index": "12",
+                "verse":
+                {
+                    "start": "verse_6",
+                    "end": "verse_123"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 111,
+        "title":
+        {
+            "rus": "Юсуф",
+            "tat": "Юсуф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Иосиф",
+            "tat": "Йосыф"
+        },
+        "titleAr": "يوسف",
+        "index": "012",
+        "pages": "212",
+        "juz":
+        [
+            {
+                "index": "12",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            },
+            {
+                "index": "13",
+                "verse":
+                {
+                    "start": "verse_53",
+                    "end": "verse_111"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 43,
+        "title":
+        {
+            "rus": "ар-Рад",
+            "tat": "Әр-Рагъд"
+        },
+        "titleTranslate":
+        {
+            "rus": "Гром",
+            "tat": "Күк күкрәү"
+        },
+        "titleAr": "الرعد",
+        "index": "013",
+        "pages": "225",
+        "juz":
+        [
+            {
+                "index": "13",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_43"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 52,
+        "title":
+        {
+            "rus": "Ибрахим",
+            "tat": "Ибраһим"
+        },
+        "titleTranslate":
+        {
+            "rus": "Авраам",
+            "tat": ""
+        },
+        "titleAr": "إبراهيم",
+        "index": "014",
+        "pages": "231",
+        "juz":
+        [
+            {
+                "index": "13",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 99,
+        "title":
+        {
+            "rus": "аль-Хиджр",
+            "tat": "Әл-Хиҗр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Хиджр",
+            "tat": "Хиҗер"
+        },
+        "titleAr": "الحجر",
+        "index": "015",
+        "pages": "237",
+        "juz":
+        [
+            {
+                "index": "14",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_99"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 128,
+        "title":
+        {
+            "rus": "ан-Нахль",
+            "tat": "Ән-Нәхл"
+        },
+        "titleTranslate":
+        {
+            "rus": "Пчелы",
+            "tat": "Бал кортлары"
+        },
+        "titleAr": "النحل",
+        "index": "016",
+        "pages": "242",
+        "juz":
+        [
+            {
+                "index": "14",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_128"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 111,
+        "title":
+        {
+            "rus": "аль-Исра",
+            "tat": "Әл-Исра"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ночной перенос",
+            "tat": "Төнге күчеш"
+        },
+        "titleAr": "الإسراء",
+        "index": "017",
+        "pages": "255",
+        "juz":
+        [
+            {
+                "index": "15",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_111"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 110,
+        "title":
+        {
+            "rus": "аль-Кахф",
+            "tat": "Әл-Кәһф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Пещера",
+            "tat": "Мәгарә"
+        },
+        "titleAr": "الكهف",
+        "index": "018",
+        "pages": "266",
+        "juz":
+        [
+            {
+                "index": "15",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_74"
+                }
+            },
+            {
+                "index": "16",
+                "verse":
+                {
+                    "start": "verse_75",
+                    "end": "verse_110"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 98,
+        "title":
+        {
+            "rus": "Марьям",
+            "tat": "Мәрьям"
+        },
+        "titleTranslate":
+        {
+            "rus": "Мария",
+            "tat": ""
+        },
+        "titleAr": "مريم",
+        "index": "019",
+        "pages": "277",
+        "juz":
+        [
+            {
+                "index": "16",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_98"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 135,
+        "title":
+        {
+            "rus": "Та Ха",
+            "tat": "Та Һа"
+        },
+        "titleTranslate":
+        {
+            "rus": "Та Ха",
+            "tat": ""
+        },
+        "titleAr": "طه",
+        "index": "020",
+        "pages": "284",
+        "juz":
+        [
+            {
+                "index": "16",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_135"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 112,
+        "title":
+        {
+            "rus": "аль-Анбия",
+            "tat": "Әл-Әнбия"
+        },
+        "titleTranslate":
+        {
+            "rus": "Пророки",
+            "tat": "Пәйгамбәрләр"
+        },
+        "titleAr": "الأنبياء",
+        "index": "021",
+        "pages": "294",
+        "juz":
+        [
+            {
+                "index": "17",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_112"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 78,
+        "title":
+        {
+            "rus": "аль-Хаджж",
+            "tat": "Әл-Хәҗ"
+        },
+        "titleTranslate":
+        {
+            "rus": "Паломничество",
+            "tat": "Хаҗ"
+        },
+        "titleAr": "الحج",
+        "index": "022",
+        "pages": "302",
+        "juz":
+        [
+            {
+                "index": "17",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 118,
+        "title":
+        {
+            "rus": "аль-Муминун",
+            "tat": "Әл-Мүэминүүн"
+        },
+        "titleTranslate":
+        {
+            "rus": "Верующие",
+            "tat": "Мөэминнәр"
+        },
+        "titleAr": "المؤمنون",
+        "index": "023",
+        "pages": "311",
+        "juz":
+        [
+            {
+                "index": "18",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_118"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 64,
+        "title":
+        {
+            "rus": "ан-Нур",
+            "tat": "Ән-Нур"
+        },
+        "titleTranslate":
+        {
+            "rus": "Свет",
+            "tat": "Нур"
+        },
+        "titleAr": "النور",
+        "index": "024",
+        "pages": "319",
+        "juz":
+        [
+            {
+                "index": "18",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_64"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 77,
+        "title":
+        {
+            "rus": "аль-Фуркан",
+            "tat": "Әл-Фүркан"
+        },
+        "titleTranslate":
+        {
+            "rus": "Различение",
+            "tat": "Аеручы"
+        },
+        "titleAr": "الفرقان",
+        "index": "025",
+        "pages": "329",
+        "juz":
+        [
+            {
+                "index": "18",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            },
+            {
+                "index": "19",
+                "verse":
+                {
+                    "start": "verse_21",
+                    "end": "verse_77"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 227,
+        "title":
+        {
+            "rus": "аш-Шуара",
+            "tat": "Әш-Шүгәра"
+        },
+        "titleTranslate":
+        {
+            "rus": "Поэты",
+            "tat": "Шагыйрьләр"
+        },
+        "titleAr": "الشعراء",
+        "index": "026",
+        "pages": "335",
+        "juz":
+        [
+            {
+                "index": "19",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_227"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 93,
+        "title":
+        {
+            "rus": "ан-Намль",
+            "tat": "Ән-Нәмл"
+        },
+        "titleTranslate":
+        {
+            "rus": "Муравьи",
+            "tat": "Кырмыскалар"
+        },
+        "titleAr": "النمل",
+        "index": "027",
+        "pages": "345",
+        "juz":
+        [
+            {
+                "index": "19",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            },
+            {
+                "index": "20",
+                "verse":
+                {
+                    "start": "verse_56",
+                    "end": "verse_93"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 88,
+        "title":
+        {
+            "rus": "аль-Касас",
+            "tat": "Әл-Касас"
+        },
+        "titleTranslate":
+        {
+            "rus": "Рассказ",
+            "tat": "Кыйсса"
+        },
+        "titleAr": "القصص",
+        "index": "028",
+        "pages": "354",
+        "juz":
+        [
+            {
+                "index": "20",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 69,
+        "title":
+        {
+            "rus": "аль-Анкабут",
+            "tat": "Әл-Ганкәбүүт"
+        },
+        "titleTranslate":
+        {
+            "rus": "Паук",
+            "tat": "Үрмәкүч"
+        },
+        "titleAr": "العنكبوت",
+        "index": "029",
+        "pages": "364",
+        "juz":
+        [
+            {
+                "index": "20",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            },
+            {
+                "index": "21",
+                "verse":
+                {
+                    "start": "verse_46",
+                    "end": "verse_69"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 60,
+        "title":
+        {
+            "rus": "ар-Рум",
+            "tat": "Әр-Рум"
+        },
+        "titleTranslate":
+        {
+            "rus": "Римляне",
+            "tat": "Румлылар"
+        },
+        "titleAr": "الروم",
+        "index": "030",
+        "pages": "371",
+        "juz":
+        [
+            {
+                "index": "21",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_60"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 34,
+        "title":
+        {
+            "rus": "Лукман",
+            "tat": "Лукман"
+        },
+        "titleTranslate":
+        {
+            "rus": "Лукман",
+            "tat": "Локман"
+        },
+        "titleAr": "لقمان",
+        "index": "031",
+        "pages": "377",
+        "juz":
+        [
+            {
+                "index": "21",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_34"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 30,
+        "title":
+        {
+            "rus": "ас-Саджда",
+            "tat": "Әс-Сәҗдә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Земной поклон",
+            "tat": "Сәҗдә"
+        },
+        "titleAr": "السجدة",
+        "index": "032",
+        "pages": "381",
+        "juz":
+        [
+            {
+                "index": "21",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 73,
+        "title":
+        {
+            "rus": "аль-Ахзаб",
+            "tat": "Әл-Әхзәб"
+        },
+        "titleTranslate":
+        {
+            "rus": "Союзники",
+            "tat": "Гаскәрләр"
+        },
+        "titleAr": "الأحزاب",
+        "index": "033",
+        "pages": "383",
+        "juz":
+        [
+            {
+                "index": "21",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "22",
+                "verse":
+                {
+                    "start": "verse_31",
+                    "end": "verse_73"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 54,
+        "title":
+        {
+            "rus": "Саба",
+            "tat": "Сәбә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Сава",
+            "tat": ""
+        },
+        "titleAr": "سبأ",
+        "index": "034",
+        "pages": "393",
+        "juz":
+        [
+            {
+                "index": "22",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_54"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 45,
+        "title":
+        {
+            "rus": "Фатир",
+            "tat": "Фатыйр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Творец",
+            "tat": "Бар кылучы"
+        },
+        "titleAr": "فاطر",
+        "index": "035",
+        "pages": "399",
+        "juz":
+        [
+            {
+                "index": "22",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 83,
+        "title":
+        {
+            "rus": "Йа Син",
+            "tat": "Йәсин"
+        },
+        "titleTranslate":
+        {
+            "rus": "Йа Син",
+            "tat": ""
+        },
+        "titleAr": "يس",
+        "index": "036",
+        "pages": "404",
+        "juz":
+        [
+            {
+                "index": "22",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_27"
+                }
+            },
+            {
+                "index": "23",
+                "verse":
+                {
+                    "start": "verse_28",
+                    "end": "verse_83"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 182,
+        "title":
+        {
+            "rus": "ас-Саффат",
+            "tat": "Саффат"
+        },
+        "titleTranslate":
+        {
+            "rus": "Выстроившиеся в ряды",
+            "tat": "Сафлар"
+        },
+        "titleAr": "الصافات",
+        "index": "037",
+        "pages": "410",
+        "juz":
+        [
+            {
+                "index": "23",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_182"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 88,
+        "title":
+        {
+            "rus": "Сад",
+            "tat": "Сад"
+        },
+        "titleTranslate":
+        {
+            "rus": "Сад",
+            "tat": ""
+        },
+        "titleAr": "ص",
+        "index": "038",
+        "pages": "417",
+        "juz":
+        [
+            {
+                "index": "23",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 75,
+        "title":
+        {
+            "rus": "аз-Зумар",
+            "tat": "Әз-Зүмәр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Толпы",
+            "tat": "Төркемнәр"
+        },
+        "titleAr": "الزمر",
+        "index": "039",
+        "pages": "422",
+        "juz":
+        [
+            {
+                "index": "23",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            },
+            {
+                "index": "24",
+                "verse":
+                {
+                    "start": "verse_32",
+                    "end": "verse_75"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 85,
+        "title":
+        {
+            "rus": "Гафир",
+            "tat": "Гафир"
+        },
+        "titleTranslate":
+        {
+            "rus": "Прощающий",
+            "tat": "Гафу итүче"
+        },
+        "titleAr": "غافر",
+        "index": "040",
+        "pages": "431",
+        "juz":
+        [
+            {
+                "index": "24",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_85"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 54,
+        "title":
+        {
+            "rus": "Фуссилят",
+            "tat": "Фуссыйләт"
+        },
+        "titleTranslate":
+        {
+            "rus": "Разъяснены",
+            "tat": "Аңлатылды"
+        },
+        "titleAr": "فصلت",
+        "index": "041",
+        "pages": "439",
+        "juz":
+        [
+            {
+                "index": "24",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            },
+            {
+                "index": "25",
+                "verse":
+                {
+                    "start": "verse_47",
+                    "end": "verse_54"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 53,
+        "title":
+        {
+            "rus": "аш-Шура",
+            "tat": "Әш-Шура"
+        },
+        "titleTranslate":
+        {
+            "rus": "Совет",
+            "tat": "Киңәш"
+        },
+        "titleAr": "الشورى",
+        "index": "042",
+        "pages": "445",
+        "juz":
+        [
+            {
+                "index": "25",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_53"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 89,
+        "title":
+        {
+            "rus": "аз-Зухруф",
+            "tat": "Әз-Зүхруф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Украшения",
+            "tat": "Бизәкләр"
+        },
+        "titleAr": "الزخرف",
+        "index": "043",
+        "pages": "451",
+        "juz":
+        [
+            {
+                "index": "25",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_89"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 59,
+        "title":
+        {
+            "rus": "ад-Духан",
+            "tat": "Әд-Духан"
+        },
+        "titleTranslate":
+        {
+            "rus": "Дым",
+            "tat": "Төтен"
+        },
+        "titleAr": "الدخان",
+        "index": "044",
+        "pages": "457",
+        "juz":
+        [
+            {
+                "index": "25",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_59"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 37,
+        "title":
+        {
+            "rus": "аль-Джасия",
+            "tat": "Әл-Җәсия"
+        },
+        "titleTranslate":
+        {
+            "rus": "Коленопреклоненные",
+            "tat": "Тезләнеп торучылар"
+        },
+        "titleAr": "الجاثية",
+        "index": "045",
+        "pages": "460",
+        "juz":
+        [
+            {
+                "index": "25",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_37"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 35,
+        "title":
+        {
+            "rus": "аль-Ахкаф",
+            "tat": "Әл-Әхкаф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Барханы",
+            "tat": "Ком таулары"
+        },
+        "titleAr": "الأحقاف",
+        "index": "046",
+        "pages": "464",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_35"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 38,
+        "title":
+        {
+            "rus": "Мухаммад",
+            "tat": "Мөхәммәд"
+        },
+        "titleTranslate":
+        {
+            "rus": "Мухаммад",
+            "tat": ""
+        },
+        "titleAr": "محمد",
+        "index": "047",
+        "pages": "468",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_38"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 29,
+        "title":
+        {
+            "rus": "аль-Фатх",
+            "tat": "Әл-Фәтх"
+        },
+        "titleTranslate":
+        {
+            "rus": "Победа",
+            "tat": "Җиңү"
+        },
+        "titleAr": "الفتح",
+        "index": "048",
+        "pages": "472",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 18,
+        "title":
+        {
+            "rus": "аль-Худжурат",
+            "tat": "Әл-Хүҗүрат"
+        },
+        "titleTranslate":
+        {
+            "rus": "Комнаты",
+            "tat": "Бүлмәләр"
+        },
+        "titleAr": "الحجرات",
+        "index": "049",
+        "pages": "477",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 45,
+        "title":
+        {
+            "rus": "Каф",
+            "tat": "Каф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Каф",
+            "tat": ""
+        },
+        "titleAr": "ق",
+        "index": "050",
+        "pages": "479",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 60,
+        "title":
+        {
+            "rus": "аз-Зарият",
+            "tat": "Әз-Зарият"
+        },
+        "titleTranslate":
+        {
+            "rus": "Рассеивающие прах",
+            "tat": "Таратучылар"
+        },
+        "titleAr": "الذاريات",
+        "index": "051",
+        "pages": "482",
+        "juz":
+        [
+            {
+                "index": "26",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_31",
+                    "end": "verse_60"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 49,
+        "title":
+        {
+            "rus": "ат-Тур",
+            "tat": "Әт-Тур"
+        },
+        "titleTranslate":
+        {
+            "rus": "Гора",
+            "tat": "Тау"
+        },
+        "titleAr": "الطور",
+        "index": "052",
+        "pages": "485",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_49"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 62,
+        "title":
+        {
+            "rus": "ан-Наджм",
+            "tat": "Ән-Нәҗм"
+        },
+        "titleTranslate":
+        {
+            "rus": "Звезда",
+            "tat": "Йолдыз"
+        },
+        "titleAr": "النجم",
+        "index": "053",
+        "pages": "487",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_62"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 55,
+        "title":
+        {
+            "rus": "аль-Камар",
+            "tat": "Әл-Камәр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Месяц",
+            "tat": "Ай"
+        },
+        "titleAr": "القمر",
+        "index": "054",
+        "pages": "490",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 78,
+        "title":
+        {
+            "rus": "ар-Рахман",
+            "tat": "Әр-Рахмәән"
+        },
+        "titleTranslate":
+        {
+            "rus": "Милостивый",
+            "tat": "Мәрхәмәтле"
+        },
+        "titleAr": "الرحمن",
+        "index": "055",
+        "pages": "493",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 96,
+        "title":
+        {
+            "rus": "аль-Вакиа",
+            "tat": "Әл-Вакыйга"
+        },
+        "titleTranslate":
+        {
+            "rus": "Событие",
+            "tat": "Вакыйга"
+        },
+        "titleAr": "الواقعة",
+        "index": "056",
+        "pages": "496",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_96"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 29,
+        "title":
+        {
+            "rus": "аль-Хадид",
+            "tat": "Әл-Хәдид"
+        },
+        "titleTranslate":
+        {
+            "rus": "Железо",
+            "tat": "Тимер"
+        },
+        "titleAr": "الحديد",
+        "index": "057",
+        "pages": "499",
+        "juz":
+        [
+            {
+                "index": "27",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 22,
+        "title":
+        {
+            "rus": "аль-Муджадиля",
+            "tat": "Әл-Мүҗәәдәлә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Препирательство",
+            "tat": "Сүз көрәштерү"
+        },
+        "titleAr": "المجادلة",
+        "index": "058",
+        "pages": "504",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 24,
+        "title":
+        {
+            "rus": "аль-Хашр",
+            "tat": "Әл-Хәшр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Сбор",
+            "tat": "Җыен"
+        },
+        "titleAr": "الحشر",
+        "index": "059",
+        "pages": "507",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_24"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 13,
+        "title":
+        {
+            "rus": "аль-Мумтахана",
+            "tat": "Әл-Мүмтәхәнә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Испытуемая",
+            "tat": "Сыналучы хатын"
+        },
+        "titleAr": "الممتحنة",
+        "index": "060",
+        "pages": "510",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_13"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 14,
+        "title":
+        {
+            "rus": "ас-Сафф",
+            "tat": "Әс-Сафф"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ряды",
+            "tat": "Саф"
+        },
+        "titleAr": "الصف",
+        "index": "061",
+        "pages": "513",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_14"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 11,
+        "title":
+        {
+            "rus": "аль-Джумуа",
+            "tat": "Әл-Җүмүгә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Собрание",
+            "tat": "Җомга"
+        },
+        "titleAr": "الجمعة",
+        "index": "062",
+        "pages": "515",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 11,
+        "title":
+        {
+            "rus": "аль-Мунафикун",
+            "tat": "Әл-Мүнәәфикуун"
+        },
+        "titleTranslate":
+        {
+            "rus": "Лицемеры",
+            "tat": "Монафикълар"
+        },
+        "titleAr": "المنافقون",
+        "index": "063",
+        "pages": "516",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 18,
+        "title":
+        {
+            "rus": "ат-Тагабун",
+            "tat": "Әт-Тәгабүн"
+        },
+        "titleTranslate":
+        {
+            "rus": "Взаимное обделение",
+            "tat": "Алдашу"
+        },
+        "titleAr": "التغابن",
+        "index": "064",
+        "pages": "518",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 12,
+        "title":
+        {
+            "rus": "ат-Таляк",
+            "tat": "Әт-Таләк"
+        },
+        "titleTranslate":
+        {
+            "rus": "Развод",
+            "tat": "Талак"
+        },
+        "titleAr": "الطلاق",
+        "index": "065",
+        "pages": "520",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 12,
+        "title":
+        {
+            "rus": "ат-Тахрим",
+            "tat": "Әт-Тәхрим"
+        },
+        "titleTranslate":
+        {
+            "rus": "Запрещение",
+            "tat": "Тыю"
+        },
+        "titleAr": "التحريم",
+        "index": "066",
+        "pages": "522",
+        "juz":
+        [
+            {
+                "index": "28",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 30,
+        "title":
+        {
+            "rus": "аль-Мульк",
+            "tat": "Әл-Мүльк"
+        },
+        "titleTranslate":
+        {
+            "rus": "Власть",
+            "tat": "Хөкемдарлык"
+        },
+        "titleAr": "الملك",
+        "index": "067",
+        "pages": "524",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 52,
+        "title":
+        {
+            "rus": "аль-Калям",
+            "tat": "Әл-Каләм"
+        },
+        "titleTranslate":
+        {
+            "rus": "Письменная трость",
+            "tat": "Каләм"
+        },
+        "titleAr": "القلم",
+        "index": "068",
+        "pages": "526",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 52,
+        "title":
+        {
+            "rus": "аль-Хакка",
+            "tat": "Әл-Хәкка"
+        },
+        "titleTranslate":
+        {
+            "rus": "Неминуемое",
+            "tat": "Котылгысыз"
+        },
+        "titleAr": "الحاقة",
+        "index": "069",
+        "pages": "529",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 44,
+        "title":
+        {
+            "rus": "аль-Мааридж",
+            "tat": "Әл-Мәгәриҗ"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ступени",
+            "tat": "Баскычлар"
+        },
+        "titleAr": "المعارج",
+        "index": "070",
+        "pages": "531",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_44"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 28,
+        "title":
+        {
+            "rus": "Нух",
+            "tat": "Нух"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ной",
+            "tat": ""
+        },
+        "titleAr": "نوح",
+        "index": "071",
+        "pages": "533",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 28,
+        "title":
+        {
+            "rus": "аль-Джинн",
+            "tat": "Әл-Җинн"
+        },
+        "titleTranslate":
+        {
+            "rus": "Джинны",
+            "tat": "Җеннәр"
+        },
+        "titleAr": "الجن",
+        "index": "072",
+        "pages": "534",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 20,
+        "title":
+        {
+            "rus": "аль-Муззаммиль",
+            "tat": "Әл-Мүззәммил"
+        },
+        "titleTranslate":
+        {
+            "rus": "Закутавшийся",
+            "tat": "Чорналган"
+        },
+        "titleAr": "المزمل",
+        "index": "073",
+        "pages": "537",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 56,
+        "title":
+        {
+            "rus": "аль-Муддассир",
+            "tat": "Әл-Мүддәссир"
+        },
+        "titleTranslate":
+        {
+            "rus": "Завернувшийся",
+            "tat": "Төренгән"
+        },
+        "titleAr": "المدثر",
+        "index": "074",
+        "pages": "538",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_56"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 40,
+        "title":
+        {
+            "rus": "аль-Кияма",
+            "tat": "Әл-Кыямә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Воскресение",
+            "tat": "Кыямәт"
+        },
+        "titleAr": "القيامة",
+        "index": "075",
+        "pages": "540",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 31,
+        "title":
+        {
+            "rus": "аль-Инсан",
+            "tat": "Әл-Инсән"
+        },
+        "titleTranslate":
+        {
+            "rus": "Человек",
+            "tat": "Кеше"
+        },
+        "titleAr": "الإنسان",
+        "index": "076",
+        "pages": "542",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 50,
+        "title":
+        {
+            "rus": "аль-Мурсалят",
+            "tat": "Әл-Мүрсәләәт"
+        },
+        "titleTranslate":
+        {
+            "rus": "Посылаемые",
+            "tat": "Җибәрелгәннәр"
+        },
+        "titleAr": "المرسلات",
+        "index": "077",
+        "pages": "544",
+        "juz":
+        [
+            {
+                "index": "29",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_50"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 40,
+        "title":
+        {
+            "rus": "ан-Наба",
+            "tat": "Ән-Нәбә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Весть",
+            "tat": "Хәбәр"
+        },
+        "titleAr": "النبأ",
+        "index": "078",
+        "pages": "545",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 46,
+        "title":
+        {
+            "rus": "ан-Назиат",
+            "tat": "Ән-Нәәзигәәт"
+        },
+        "titleTranslate":
+        {
+            "rus": "Исторгающие",
+            "tat": "Йолкып алучылар"
+        },
+        "titleAr": "النازعات",
+        "index": "079",
+        "pages": "547",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 42,
+        "title":
+        {
+            "rus": "Абаса",
+            "tat": "Габәсә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Нахмурился",
+            "tat": "Йөзен чытты"
+        },
+        "titleAr": "عبس",
+        "index": "080",
+        "pages": "548",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_42"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 29,
+        "title":
+        {
+            "rus": "ат-Таквир",
+            "tat": "Әт-Тәквир"
+        },
+        "titleTranslate":
+        {
+            "rus": "Скручивание",
+            "tat": "Төрү"
+        },
+        "titleAr": "التكوير",
+        "index": "081",
+        "pages": "550",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 19,
+        "title":
+        {
+            "rus": "аль-Инфитар",
+            "tat": "Әл-Инфитар"
+        },
+        "titleTranslate":
+        {
+            "rus": "Раскалывание",
+            "tat": "Ярылу"
+        },
+        "titleAr": "الإنفطار",
+        "index": "082",
+        "pages": "551",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 36,
+        "title":
+        {
+            "rus": "аль-Мутаффифин",
+            "tat": "Әл-Мутаффифин"
+        },
+        "titleTranslate":
+        {
+            "rus": "Обвешивающие",
+            "tat": "Киметеп үлчәүчеләр"
+        },
+        "titleAr": "المطففين",
+        "index": "083",
+        "pages": "552",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_36"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 25,
+        "title":
+        {
+            "rus": "аль-Иншикак",
+            "tat": "Әл-Иншикак"
+        },
+        "titleTranslate":
+        {
+            "rus": "Раскалывание",
+            "tat": "Ярылу"
+        },
+        "titleAr": "الإنشقاق",
+        "index": "084",
+        "pages": "553",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_25"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 22,
+        "title":
+        {
+            "rus": "аль-Бурудж",
+            "tat": "Әл-Бүруҗ"
+        },
+        "titleTranslate":
+        {
+            "rus": "Созвездия зодиака",
+            "tat": "Йолдызлыклар"
+        },
+        "titleAr": "البروج",
+        "index": "085",
+        "pages": "554",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 17,
+        "title":
+        {
+            "rus": "ат-Тарик",
+            "tat": "Әт-Тарик"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ночной путник",
+            "tat": "Төнге юлчы"
+        },
+        "titleAr": "الطارق",
+        "index": "086",
+        "pages": "555",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_17"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 19,
+        "title":
+        {
+            "rus": "аль-Аля",
+            "tat": "Әл-Әгъләә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Всевышний",
+            "tat": "Иң өстен"
+        },
+        "titleAr": "الأعلى",
+        "index": "087",
+        "pages": "556",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 26,
+        "title":
+        {
+            "rus": "аль-Гашия",
+            "tat": "Әл-Гашия"
+        },
+        "titleTranslate":
+        {
+            "rus": "Покрывающее",
+            "tat": "Каплап алучы"
+        },
+        "titleAr": "الغاشية",
+        "index": "088",
+        "pages": "556",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_26"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 30,
+        "title":
+        {
+            "rus": "аль-Фаджр",
+            "tat": "Әл-Фәҗр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Заря",
+            "tat": "Таң"
+        },
+        "titleAr": "الفجر",
+        "index": "089",
+        "pages": "557",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 20,
+        "title":
+        {
+            "rus": "аль-Баляд",
+            "tat": "Әл-Бәләд"
+        },
+        "titleTranslate":
+        {
+            "rus": "Город",
+            "tat": "Шәһәр"
+        },
+        "titleAr": "البلد",
+        "index": "090",
+        "pages": "559",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 15,
+        "title":
+        {
+            "rus": "аш-Шамс",
+            "tat": "Әш-Шәмс"
+        },
+        "titleTranslate":
+        {
+            "rus": "Солнце",
+            "tat": "Кояш"
+        },
+        "titleAr": "الشمس",
+        "index": "091",
+        "pages": "559",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_15"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 21,
+        "title":
+        {
+            "rus": "аль-Ляйль",
+            "tat": "Әл-Ләйл"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ночь",
+            "tat": "Төн"
+        },
+        "titleAr": "الليل",
+        "index": "092",
+        "pages": "560",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_21"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 11,
+        "title":
+        {
+            "rus": "ад-Духа",
+            "tat": "Әд-Духәә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Утро",
+            "tat": "Иртә"
+        },
+        "titleAr": "الضحى",
+        "index": "093",
+        "pages": "561",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 8,
+        "title":
+        {
+            "rus": "аш-Шарх",
+            "tat": "Әш-Шарх"
+        },
+        "titleTranslate":
+        {
+            "rus": "Раскрытие",
+            "tat": "Ачылу"
+        },
+        "titleAr": "الشرح",
+        "index": "094",
+        "pages": "561",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 8,
+        "title":
+        {
+            "rus": "ат-Тин",
+            "tat": "Әт-Тин"
+        },
+        "titleTranslate":
+        {
+            "rus": "Смоковница",
+            "tat": "Инҗир"
+        },
+        "titleAr": "التين",
+        "index": "095",
+        "pages": "562",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 19,
+        "title":
+        {
+            "rus": "аль-Аляк",
+            "tat": "Әл-Галәк"
+        },
+        "titleTranslate":
+        {
+            "rus": "Сгусток крови",
+            "tat": "Оешкан кан"
+        },
+        "titleAr": "العلق",
+        "index": "096",
+        "pages": "562",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 5,
+        "title":
+        {
+            "rus": "аль-Кадр",
+            "tat": "Әл-Кадр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Предопределение",
+            "tat": "Кадер"
+        },
+        "titleAr": "القدر",
+        "index": "097",
+        "pages": "563",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 8,
+        "title":
+        {
+            "rus": "аль-Баййина",
+            "tat": "Әл-Бәййинә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ясное знамение",
+            "tat": "Ачык дәлил"
+        },
+        "titleAr": "البينة",
+        "index": "098",
+        "pages": "563",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 8,
+        "title":
+        {
+            "rus": "аз-Зальзаля",
+            "tat": "Әз-Зәлзәлә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Сотрясение",
+            "tat": "Җир тетрәү"
+        },
+        "titleAr": "الزلزلة",
+        "index": "099",
+        "pages": "564",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 11,
+        "title":
+        {
+            "rus": "аль-Адият",
+            "tat": "Әл-Гәәдийәәт"
+        },
+        "titleTranslate":
+        {
+            "rus": "Скачущие",
+            "tat": "Чабып баручылар"
+        },
+        "titleAr": "العاديات",
+        "index": "100",
+        "pages": "564",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 11,
+        "title":
+        {
+            "rus": "аль-Кариа",
+            "tat": "Әл-Карига"
+        },
+        "titleTranslate":
+        {
+            "rus": "Великое бедствие",
+            "tat": "Ишек каккан"
+        },
+        "titleAr": "القارعة",
+        "index": "101",
+        "pages": "565",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 8,
+        "title":
+        {
+            "rus": "ат-Такасур",
+            "tat": "Әт-Тәкәәсүр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Страсть к приумножению",
+            "tat": "Арттыру"
+        },
+        "titleAr": "التكاثر",
+        "index": "102",
+        "pages": "565",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 3,
+        "title":
+        {
+            "rus": "аль-Аср",
+            "tat": "Әл-Гаср"
+        },
+        "titleTranslate":
+        {
+            "rus": "Предвечернее время",
+            "tat": "Икенде вакыты"
+        },
+        "titleAr": "العصر",
+        "index": "103",
+        "pages": "566",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 9,
+        "title":
+        {
+            "rus": "аль-Хумаза",
+            "tat": "Әл-Һүмәзә"
+        },
+        "titleTranslate":
+        {
+            "rus": "Хулитель",
+            "tat": "Яла ягучы"
+        },
+        "titleAr": "الهمزة",
+        "index": "104",
+        "pages": "566",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_9"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 5,
+        "title":
+        {
+            "rus": "аль-Филь",
+            "tat": "Әл-Фил"
+        },
+        "titleTranslate":
+        {
+            "rus": "Слон",
+            "tat": "Фил"
+        },
+        "titleAr": "الفيل",
+        "index": "105",
+        "pages": "566",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 4,
+        "title":
+        {
+            "rus": "Курайш",
+            "tat": "Курайш"
+        },
+        "titleTranslate":
+        {
+            "rus": "Курейшиты",
+            "tat": "Кораешләр"
+        },
+        "titleAr": "قريش",
+        "index": "106",
+        "pages": "567",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 7,
+        "title":
+        {
+            "rus": "аль-Маун",
+            "tat": "Әл-Мәгүн"
+        },
+        "titleTranslate":
+        {
+            "rus": "Мелочь",
+            "tat": "Изгелек кылу"
+        },
+        "titleAr": "الماعون",
+        "index": "107",
+        "pages": "567",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 3,
+        "title":
+        {
+            "rus": "аль-Кавсар",
+            "tat": "Әл-Кәүсәр"
+        },
+        "titleTranslate":
+        {
+            "rus": "Изобилие",
+            "tat": "Муллык"
+        },
+        "titleAr": "الكوثر",
+        "index": "108",
+        "pages": "567",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 6,
+        "title":
+        {
+            "rus": "аль-Кафирун",
+            "tat": "Әл-Кәфирун"
+        },
+        "titleTranslate":
+        {
+            "rus": "Неверующие",
+            "tat": "Кяферләр"
+        },
+        "titleAr": "الكافرون",
+        "index": "109",
+        "pages": "568",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Медина",
+            "tat": "Мәдинә"
+        },
+        "type": "Madaniyah",
+        "count": 3,
+        "title":
+        {
+            "rus": "ан-Наср",
+            "tat": "Ән-Нәср"
+        },
+        "titleTranslate":
+        {
+            "rus": "Помощь",
+            "tat": "Ярдәм"
+        },
+        "titleAr": "النصر",
+        "index": "110",
+        "pages": "568",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 5,
+        "title":
+        {
+            "rus": "аль-Масад",
+            "tat": "Мәсәд"
+        },
+        "titleTranslate":
+        {
+            "rus": "Пальмовые волокна",
+            "tat": ""
+        },
+        "titleAr": "المسد",
+        "index": "111",
+        "pages": "568",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 4,
+        "title":
+        {
+            "rus": "аль-Ихляс",
+            "tat": "Әл-Ихлас"
+        },
+        "titleTranslate":
+        {
+            "rus": "Очищение веры",
+            "tat": ""
+        },
+        "titleAr": "الإخلاص",
+        "index": "112",
+        "pages": "569",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 5,
+        "title":
+        {
+            "rus": "аль-Фаляк",
+            "tat": "Әл-Фәләкъ"
+        },
+        "titleTranslate":
+        {
+            "rus": "Рассвет",
+            "tat": "Таң"
+        },
+        "titleAr": "الفلق",
+        "index": "113",
+        "pages": "569",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ]
+    },
+    {
+        "place":
+        {
+            "rus": "Мекка",
+            "tat": "Мәккә"
+        },
+        "type": "Makkiyah",
+        "count": 6,
+        "title":
+        {
+            "rus": "ан-Нас",
+            "tat": "Ән-Нәс"
+        },
+        "titleTranslate":
+        {
+            "rus": "Ан-Нас",
+            "tat": "Кешеләр"
+        },
+        "titleAr": "الناس",
+        "index": "114",
+        "pages": "569",
+        "juz":
+        [
+            {
+                "index": "30",
+                "verse":
+                {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ]
+    }
+]
