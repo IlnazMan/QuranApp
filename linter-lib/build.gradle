@@ -1,0 +1,25 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+}
+java {
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
+}
+kotlin {
+    compilerOptions {
+        jvmTarget = JvmTarget.JVM_11
+    }
+}
+jar {
+    manifest {
+        attributes("Lint-Registry-v2": "com.linter.lib.MyIssueRegistry")
+    }
+}
+dependencies {
+    compileOnly("com.android.tools.lint:lint-api:31.2.0") // Используйте актуальную версию
+    compileOnly("com.android.tools.lint:lint-checks:31.2.0")
+    testImplementation("com.android.tools.lint:lint-tests:31.2.0")
+}
