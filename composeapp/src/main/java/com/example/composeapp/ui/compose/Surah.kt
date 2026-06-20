@@ -4,7 +4,14 @@ import android.content.Context
 import android.media.MediaPlayer
 import android.util.Base64
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -13,8 +20,25 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -25,11 +49,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.composeapp.data.enitities.quran.SuraData
 import com.example.composeapp.data.enitities.suralist.SurahItem
-import com.example.composeapp.data.enitities.translation.Ayah
-import com.example.composeapp.data.repositories.QuranDataRepository
-import com.example.composeapp.data.repositories.QuranDataRepositoryImpl
+import com.example.composeapp.viewmodel.SurahViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -56,16 +77,16 @@ sealed class JuzMarker {
 fun SurahScreen(
     surah: SurahItem?,
     allSuras: List<SurahItem>,
+    surahViewModel: SurahViewModel,
     modifier: Modifier = Modifier,
     onBackClick: () -> Unit = {}
 ) {
     val context = LocalContext.current
-    val repository: QuranDataRepository = remember { QuranDataRepositoryImpl(context) }
     val coroutineScope = rememberCoroutineScope()
     var showTranslation by remember { mutableStateOf(true) }
 
-    var currentSuraData by remember { mutableStateOf<SuraData?>(null) }
-    var tafsirData by remember { mutableStateOf<Map<String, Map<String, Ayah>>>(emptyMap()) }
+    val currentSuraData by surahViewModel.suraData.collectAsState()
+    val tafsirData by surahViewModel.tafsirData.collectAsState()
 
     // Логика определения начала или продолжения джуза
     val juzMarkers = remember(surah, allSuras) {
@@ -97,12 +118,7 @@ fun SurahScreen(
 
     LaunchedEffect(surah) {
         surah?.index?.let { index ->
-            try {
-                currentSuraData = repository.getSurah(index)
-                tafsirData = repository.getTafsir()
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
+            surahViewModel.loadSurahData(index)
         }
     }
 

@@ -7,27 +7,28 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import com.example.composeapp.data.enitities.suralist.SurahItem
 import com.example.composeapp.ui.compose.MyNavHost
 import com.example.composeapp.ui.theme.QuranAppTheme
+import com.example.composeapp.viewmodel.MainViewModel
 import com.example.composeapp.viewmodel.ThemeViewModel
-import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.decodeFromStream
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private val themeViewModel: ThemeViewModel by viewModels()
+    private val mainViewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val str = Json.decodeFromStream<List<SurahItem>>(assets.open("suras.json"))
         setContent {
             val isDarkMode by themeViewModel.isDarkMode.collectAsState()
+            val suraList by mainViewModel.surahList.collectAsState()
             
             QuranAppTheme(darkTheme = isDarkMode) {
                 MyNavHost(
-                    suraList = str,
+                    suraList = suraList,
                     themeViewModel = themeViewModel
                 )
             }

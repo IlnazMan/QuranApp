@@ -19,7 +19,7 @@ jar {
     }
 }
 dependencies {
-    compileOnly("com.android.tools.lint:lint-api:31.2.0") // Используйте актуальную версию
-    compileOnly("com.android.tools.lint:lint-checks:31.2.0")
-    testImplementation("com.android.tools.lint:lint-tests:31.2.0")
+    compileOnly('com.android.tools.lint:lint-api:32.1.1') // Используйте актуальную версию
+    compileOnly('com.android.tools.lint:lint-checks:32.1.1')
+    testImplementation('com.android.tools.lint:lint-tests:32.1.1')
 }
